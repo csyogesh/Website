@@ -1,0 +1,47 @@
+<html>
+  <head>
+    <link rel="stylesheet" href="style.css" />
+    <title>Feedback Form</title>
+  </head>
+  <body bgcolor="#c0b8b8">
+    <center>
+      <h1>FEEDBACK FORM</h1>
+    </center>
+
+    <form action="success.html" method="GET" class="form">
+      <div>
+        <lable for="name">Name: </lable>
+        <input type="text" id="name" name="name" placeholder="Name" required />
+      </div>
+      <div>
+        <lable for="email">E-mail: </lable>
+        <input type="email" id="email" placeholder="Email-Id" required />
+      </div>
+      <div>
+        <lable for="phone">Phone Number: </lable>
+        <input type="tel" id="phone" placeholder="Phone number" required />
+      </div>
+      <div>
+        <lable for="feedback">Feedback: </lable>
+        <textarea
+          type="text"
+          id="feedback"
+          placeholder="Write your feedback here"
+          required
+        ></textarea>
+      </div>
+      <div>
+        <lable for="address">Address: </lable>
+        <textarea
+          type="text"
+          id="address"
+          placeholder="Write your address here"
+          required
+        ></textarea>
+      </div>
+      <div class="deco">
+        <button type="submit">Submit</button>
+      </div>
+    </form>
+  </body>
+</html>

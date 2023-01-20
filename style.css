@@ -1,0 +1,140 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  overflow: hidden;
+}
+::selection {
+  color: #000;
+  background: #fff;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 200px;
+  height: 100vh;
+  background-color: #f39090;
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+li a {
+  margin-top: 5%;
+  display: block;
+  color: rgb(252, 252, 252);
+  padding: 20px 20px;
+  text-decoration: none;
+}
+
+/* Change the link color on hover */
+li a:hover {
+  background-color: rgb(247, 9, 9);
+  color: white;
+}
+/*h.html hed*/
+body {
+  /* width: calc(100vw - 200px); */
+  height: 100vh;
+}
+.head {
+  margin-top: 20%;
+  text-align: center;
+  color: black;
+}
+/*h.html footer*/
+.foot {
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  margin-top: 15%;
+  background-color: #000;
+}
+.li {
+  margin-top: 2%;
+  margin-bottom: 2%;
+  text-align: center;
+}
+
+/* head for Web pages*/
+.content {
+  margin-top: 10%;
+  margin-top: 5%;
+  text-align: center;
+  color: black;
+}
+
+/* space for content*/
+.space {
+  margin-top: 6%;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+/* for image */
+.simg {
+  display: block;
+  margin-top: 6%;
+  margin-left: 570px;
+  margin-right: 100px;
+}
+/* Feedback.html*/
+.form {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  margin: 30px auto;
+  align-items: center;
+  justify-content: center;
+  font-size: 120%;
+  font-weight: bold;
+  color: #fff;
+}
+.form div {
+  display: flex;
+  flex-direction: column;
+  margin: 5px 0;
+}
+input,
+textarea {
+  font-size: 100%;
+}
+lable {
+  font-size: 100%;
+}
+input {
+  width: 400px;
+  height: 35px;
+  margin: 5px 0;
+}
+textarea {
+  width: 400px;
+  height: 100px;
+  margin: 5px 0;
+  resize: vertical;
+}
+button[type="submit"] {
+  border: none;
+  background-color: black;
+  color: white;
+  padding: 10px 30px;
+  margin: 10px 10px;
+  border-radius: 50px;
+  transition: all 0.5s ease;
+}
+button[type="submit"]:hover {
+  transform: scale(1.1);
+}
+
+/*Sucess Message*/
+.suc {
+  display: block;
+  margin-top: 6%;
+  margin-left: 500px;
+  margin-right: 100px;
+}
+
+.deco {
+  text-decoration: none;
+}
